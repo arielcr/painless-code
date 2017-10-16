@@ -22,5 +22,5 @@ exclude:
 - Gemfile
 - Gemfile.lock
 disqus:
-    shortname: painless-code
+  shortname: painless-code
 google_analytics: UA-3469370-9
