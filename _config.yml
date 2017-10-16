@@ -11,7 +11,7 @@ collections:
 description: Easy to understand coding tutorials.
 baseurl: 
 url: http://painlesscode.com
-twitter_username: arielcr
+twitter_username: 
 github_username: arielcr
 permalink: "/:categories/:title/"
 markdown: kramdown
