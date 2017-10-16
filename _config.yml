@@ -1,6 +1,6 @@
 ---
 title: Painless Code
-timezone: UTC
+timezone: America/Guatemala
 collections:
   posts:
     title: Posts
@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 description: Easy to understand coding tutorials.
-baseurl: ''
+baseurl: 
 url: http://painlesscode.com
 twitter_username: arielcr
 github_username: arielcr
