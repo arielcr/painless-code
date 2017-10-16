@@ -25,8 +25,8 @@ permalink: /:categories/:title/
 
 # Build settings
 markdown: kramdown
-#theme: jekyll-theme-time-machine
-theme: minima
+theme: jekyll-theme-time-machine
+#theme: minima
 plugins:
   - jekyll-feed
 exclude:
