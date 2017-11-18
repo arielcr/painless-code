@@ -2,7 +2,7 @@
 title: What is a Design Pattern?
 date: 2017-11-18 11:06:00 -06:00
 categories:
-- design patterns
+- design-patterns
 tags:
 - design patterns
 - php
