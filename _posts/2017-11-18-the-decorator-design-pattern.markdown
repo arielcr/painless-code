@@ -3,6 +3,9 @@ title: The Decorator Design Pattern
 date: 2017-11-18 18:20:00 -06:00
 categories:
 - design-patterns
+tags:
+- design patterns
+- php
 ---
 
 The Decorator Pattern is a [structural design pattern](https://www.javatpoint.com/structural-design-patterns) that has the ability to add behaviour to an existing class dynamically.
