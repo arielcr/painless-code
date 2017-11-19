@@ -18,16 +18,16 @@ So here's the pattern explained on PHP. We're going to use a *Coffee Service* im
 1. First we need an [interface](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html), this is important because every Decorator Class needs to implement the same interface as the core class:
 
 ```php
-    interface CoffeeService {
-    
-        public function getCost();
-    
-        public function getDescription();
-    
-    }
+interface CoffeeService {
+
+    public function getCost();
+
+    public function getDescription();
+
+}
 ```
 
-2. The we create the basic class, in our case is the `SingleCoffee Class`:
+2. We create the basic class, in our case is the `SingleCoffee Class`:
 
 ```php
 class SingleCoffee implements CoffeeService{
@@ -87,3 +87,19 @@ class Cinnamon implements CoffeeService {
 }
 ```
 
+Finally, to run our code with create an instance of our basic class and wrap it with the decorators that we want:
+
+```php
+$coffeeService = new Cinnamon(new Milk(new SingleCoffee));
+
+echo $coffeeService->getCost();
+
+echo $coffeeService->getDescription();
+
+```
+
+The output of this would be:
+
+```
+22 Single Coffee, with milk, with cinammon%
+```
