@@ -107,4 +107,6 @@ The output of this would be:
 22 Single Coffee, with milk, with cinammon
 ```
 
+You can run and view the full code here: [codepad.org/at37vpqW](http://codepad.org/at37vpqW)
+
 And that's all! Painless code right?
