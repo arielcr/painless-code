@@ -106,4 +106,6 @@ And the output will be:
 Playing some music on the Walkman...
 ```
 
+You can run and view the full code here: [codepad.org/vduny4f4](http://codepad.org/vduny4f4)
+
 And that's all! Painless code right?
