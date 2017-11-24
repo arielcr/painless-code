@@ -10,7 +10,7 @@ tags:
 
 We all use adapters in our daily life, when we want to connect a DVI monitor to a VGA port we need an adapter to do that, or when we want to use a microSD in a SD memory card. So guess what, we can do kind of the same thing using this design pattern.
 
-An **adapter** allows you to translate one interface for use with another. Adapters basically allow objects to work together in a situation where they couldn't because of their different and incompatible interfaces. The adapter translates the calls to its interface into calls to the original interface understands. 
+An **adapter** allows you to translate one interface for use with another. Adapters basically allow objects to work together in a situation where they couldn't because of their different and incompatible interfaces. The adapter translates the calls to its interface into calls that the original interface understands. 
 
 To explain it a little bit better there's nothing like see it in action with an example. We're going to use PHP, but the same principles apply to any other language.
 
