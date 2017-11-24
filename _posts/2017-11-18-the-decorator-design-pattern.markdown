@@ -104,5 +104,7 @@ echo $coffeeService->getDescription();
 The output of this would be:
 
 ```
-22 Single Coffee, with milk, with cinammon%
+22 Single Coffee, with milk, with cinammon
 ```
+
+And that's all! Painless code right?
