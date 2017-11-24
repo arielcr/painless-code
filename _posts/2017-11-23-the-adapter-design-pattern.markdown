@@ -56,7 +56,7 @@ class iPod implements iPodInterface{
 }
 ```
 
-3. Now lets define our **WalkmanAdapter** *Class*. It must implement the *Interface* that we're currently using, in our case the *iPodInterface* and it must accept an *instance* of our *Walkman Class* on it's *constructor*. Remember we've to [program to an interface, not an implementation](https://www.codeproject.com/Articles/702246/Program-to-Interface-not-Implementation-Beginners)
+3. Now lets define our **WalkmanAdapter** *Class*. It must implement the *Interface* that we're currently using, in our case the *iPodInterface* and it must accept an *instance* of our *Walkman Class* on it's *constructor*. Remember we've to [program to an interface, not an implementation](https://www.codeproject.com/Articles/702246/Program-to-Interface-not-Implementation-Beginners). Watch how the `touchPlay()` function is *translated* into a `pressPlay()` Walkman function:
 
 ```php
 class WalkmanAdapter implements iPodInterface {
